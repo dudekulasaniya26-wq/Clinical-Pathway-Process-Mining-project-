@@ -1,0 +1,21 @@
+
+{
+  "project_name": "CareFlow",
+  "project_title": "Clinical Pathway Process Mining",
+  "version": "0.1.0",
+  "environment": "development",
+  "data_source": "synthetic",
+  "required_event_fields": [
+    "case_id",
+    "activity",
+    "timestamp"
+  ],
+  "optional_event_fields": [
+    "department"
+  ],
+  "timestamp_format": "%Y-%m-%d %H:%M:%S",
+  "privacy": {
+    "use_synthetic_or_deidentified_data": true,
+    "allow_patient_identifiers": false
+  }
+}
